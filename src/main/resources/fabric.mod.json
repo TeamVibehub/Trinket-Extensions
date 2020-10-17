@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "trx",
+  "version": "${version}",
+  "name": "Trinket Extensions",
+  "description": "Trinket Extensions is an extension API to Trinkets, allowing developers to quickly add equipment like rings and necklaces.",
+  "authors": [
+    "PrismaticYT"
+  ],
+  "contact": {
+    "repo": "TeamVibehub/trinketextensions"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.prismatic.trx.core.ExtensionInitializer"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.3+build.207",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

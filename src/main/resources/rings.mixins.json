@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.prismatic.trx.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DodgeMixin",
+    "LuckMixin",
+    "ShieldingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
