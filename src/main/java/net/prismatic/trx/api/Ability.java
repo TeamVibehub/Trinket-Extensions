@@ -17,6 +17,8 @@ public class Ability implements PlayerComponent, EntitySyncedComponent {
 
     public Ability(PlayerEntity player) {
         this.player = player;
+        this.name = "";
+        this.state = false;
     }
 
     @Override
